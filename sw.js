@@ -1,5 +1,5 @@
 /* Deutsch Tutor — service worker: offline-first caching */
-const CACHE = "deutsch-tutor-v2";
+const CACHE = "deutsch-tutor-v7";
 const ASSETS = [
   "./index.html",
   "./manifest.webmanifest",
