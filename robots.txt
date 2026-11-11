@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://achuzz143.github.io/deutsch-tutor/sitemap.xml

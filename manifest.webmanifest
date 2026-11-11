@@ -1,18 +1,68 @@
 {
   "name": "Deutsch Tutor — German with Malayalam",
   "short_name": "Deutsch Tutor",
-  "description": "Personal German tutor for Malayalam speakers: 3,500+ words, grammar A1–A2, quizzes, flashcards, live translation and audio phrasebook — all offline.",
+  "description": "Personal German tutor for Malayalam speakers: 5,000+ words, 37 A1–B1 grammar lessons, quizzes, flashcards, live translation and an audio phrasebook — all offline.",
   "lang": "en",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#f4f6fb",
   "theme_color": "#1c2230",
-  "categories": ["education", "language"],
+  "categories": [
+    "education",
+    "language"
+  ],
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daily practice",
+      "url": "./#daily",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Vocabulary",
+      "url": "./#vocab",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Quiz",
+      "url": "./#quiz",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }
